@@ -9,8 +9,21 @@
 
 <body <?php body_class();?>>
 
+    <div class="half_bg"></div>
     <header>
-        <div class="container">
-
+        <div class="container header_top">
+            <div class="row">
+                <div class="col-sm">
+                    <h1><?php bloginfo('name');?></h1>
+                    <h3><?php bloginfo('description');?></h3>
+                </div>
+                <div class="col-sm">
+                    <div class="social_area">
+                        <div class="social_button"> @ </div>
+                        <div class="social_button"> @ </div>
+                        <div class="social_button"> @ </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>

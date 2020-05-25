@@ -1,7 +1,9 @@
 <?php 
 get_header();
 ?>
-Hello World
+<div class="container body_top">
+    main
+</div>
 <?php 
 get_footer();
 ?>

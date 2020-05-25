@@ -1,4 +1,29 @@
-header {
+/* HEADER */
+.half_bg {
   background-color: #0f0;
-  height: 265px;
+  height: 300px;
+}
+header {
+  margin-top: -300px;
+}
+.header_top {
+  margin-top: 30px;
+}
+.social_area {
+  display: flex;
+}
+.social_button {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  box-shadow: 0px 2px 2px #999;
+}
+
+/* MAIN */
+.body_top {
+  background-color: #ccc;
+  margin-top: 30px;
 }
