@@ -17,7 +17,7 @@
                     <h1><?php bloginfo('name');?></h1>
                     <h3><?php bloginfo('description');?></h3>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm d-flex justify-content-end align-items-center">
                     <div class="social_area">
                         <div class="social_button"> @ </div>
                         <div class="social_button"> @ </div>
