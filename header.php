@@ -19,9 +19,26 @@
                 </div>
                 <div class="col-sm d-flex justify-content-end align-items-center">
                     <div class="social_area">
-                        <div class="social_button"> @ </div>
-                        <div class="social_button"> @ </div>
-                        <div class="social_button"> @ </div>
+                        <div class="social_button">
+                            <a href="">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                        <div class="social_button">
+                            <a href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="social_button">
+                            <a href="">
+                                <i class="fab fa-google"></i>
+                            </a>
+                        </div>
+                        <div class="social_button">
+                            <a href="">
+                                <i class="fab fa-wordpress"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

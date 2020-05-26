@@ -9,22 +9,46 @@ body {
 header {
   margin-top: -300px;
 }
+header h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+}
+header h3 {
+  color: #fff;
+  font-size: 20px;
+}
 .header_top {
   margin-top: 30px;
 }
 .social_area {
   display: flex;
+  background-color: #0f0;
 }
 .social_button {
   width: 30px;
   height: 30px;
   margin-right: 10px;
   border-radius: 50%;
-  text-align: center;
   line-height: 30px;
   box-shadow: 0px 2px 2px #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.social_button:hover,
+.social_button2:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.social_button i {
+  color: #fff;
+  font-size: 15px;
+}
+.social_button2 i {
+  color: #fff;
+  font-size: 20px;
+}
 /* MAIN */
 .body_top {
   background-color: #fff;
@@ -37,15 +61,35 @@ header {
   width: 100%;
   height: auto;
 }
+.user_info td {
+  padding: 5px 0px;
+}
 .welcome_box {
   background-color: #0f0;
   padding: 5px 7px;
   display: inline-block;
+  color: #fff;
+}
+.welcome_name {
+  margin-top: 10px;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+.welcome_name span {
+  color: #0f0;
+  font-weight: bold;
+}
+.welcome_desc {
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .social_button2 {
   flex: 1;
   height: 50px;
-  background-color: #0f0;
-  text-align: center;
   line-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
