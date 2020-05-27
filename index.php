@@ -4,7 +4,9 @@ get_header();
 <div class="container body_top">
     <div class="row">
         <div class="col-sm-5 p-0">
-            <img src="https://www.google.com.br/google.jpg" alt="google" class="avatar">
+            <?php if (get_theme_mod('lpw_img')):?>
+            <img src="<?php echo wp_get_attachment_url(get_theme_mod('lpw_img'));?>" alt="avatar" class="avatar" />
+            <?php endif;?>
         </div>
         <div class="col-sm p-0 d-flex flex-column">
             <div class="user_info m-4">
