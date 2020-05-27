@@ -12,49 +12,77 @@ get_header();
                 <div class="welcome_name">Eu sou <span> <?php bloginfo('name');?> </span></div>
                 <div class="welcome_desc"><?php bloginfo('description');?></div>
                 <table border="0" width="100%">
+                    <?php if (get_theme_mod('lpw_idade')):?>
                     <tr>
                         <td width="100" class="font-weight-bold">Idade:</td>
-                        <td>99</td>
+                        <td><?php echo get_theme_mod('lpw_idade');?></td>
                     </tr>
+                    <?php endif;?>
+
+                    <?php if (get_theme_mod('lpw_endereco')):?>
                     <tr>
-                        <td class="font-weight-bold">Endereço:</td>
-                        <td>Rua das ruas</td>
+                        <td width="100" class="font-weight-bold">Endereço:</td>
+                        <td><?php echo get_theme_mod('lpw_endereco');?></td>
                     </tr>
+                    <?php endif;?>
+
+                    <?php if (get_theme_mod('lpw_email')):?>
                     <tr>
-                        <td class="font-weight-bold">E-mail:</td>
-                        <td>email@email.com</td>
+                        <td width="100" class="font-weight-bold">E-mail:</td>
+                        <td><?php echo get_theme_mod('lpw_email');?></td>
                     </tr>
+                    <?php endif;?>
+
+                    <?php if (get_theme_mod('lpw_telefone')):?>
                     <tr>
-                        <td class="font-weight-bold">Telefone:</td>
-                        <td>99 9999-9999</td>
+                        <td width="100" class="font-weight-bold">Telefone:</td>
+                        <td><?php echo get_theme_mod('lpw_telefone');?></td>
                     </tr>
+                    <?php endif;?>
+
+                    <?php if (get_theme_mod('lpw_site')):?>
                     <tr>
-                        <td class="font-weight-bold">Site:</td>
-                        <td>www.localhost.com</td>
+                        <td width="100" class="font-weight-bold">Site:</td>
+                        <td><?php echo get_theme_mod('lpw_site');?></td>
                     </tr>
+                    <?php endif;?>
+
                 </table>
             </div>
             <div class="social_area">
+
+                <?php if (get_theme_mod('lpw_facebook')):?>
                 <div class="social_button2">
-                    <a href="">
+                    <a href="<?php echo get_theme_mod('lpw_facebook');?>">
                         <i class="fab fa-facebook"></i>
                     </a>
                 </div>
+                <?php endif;?>
+
+                <?php if (get_theme_mod('lpw_twitter')):?>
                 <div class="social_button2">
-                    <a href="">
+                    <a href="<?php echo get_theme_mod('lpw_twitter');?>">
                         <i class="fab fa-twitter"></i>
                     </a>
                 </div>
+                <?php endif;?>
+
+                <?php if (get_theme_mod('lpw_gplus')):?>
                 <div class="social_button2">
-                    <a href="">
+                    <a href="<?php echo get_theme_mod('lpw_gplus');?>">
                         <i class="fab fa-google"></i>
                     </a>
                 </div>
+                <?php endif;?>
+
+                <?php if (get_theme_mod('lpw_blog')):?>
                 <div class="social_button2">
-                    <a href="">
+                    <a href="<?php echo get_theme_mod('lpw_blog');?>">
                         <i class="fab fa-wordpress"></i>
                     </a>
                 </div>
+                <?php endif;?>
+
             </div>
         </div>
     </div>
